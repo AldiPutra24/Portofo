@@ -47,8 +47,8 @@ function Projects() {
               isBlog={false}
               title="Dashboard Data Analyst Bike Sharing"
               description="This project aims to analyze the data in the Bike Sharing Dataset with the aim of understanding bike lending patterns, influencing factors, and trends in bike usage over time."
-              ghLink="https://aldiputra.streamlit.app/"
-              demoLink="https://github.com/AldiPutra24/Proyek-Analisis-Data_Bike-Sharing.git"
+              ghLink="https://github.com/AldiPutra24/Proyek-Analisis-Data_Bike-Sharing.git"
+              demoLink="https://aldiputra.streamlit.app/"
             />
           </Col>
         </Row>
