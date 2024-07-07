@@ -6,8 +6,11 @@ import ProjectCard3 from "./ProjectCards3";
 import Particle from "../Particle";
 import editor from "../../Assets/Projects/codeEditor.png";
 import gesturo from "../../Assets/Projects/gesturo.jpg";
+import playman from "../../Assets/Projects/playman.png";
 import dataanalyst from "../../Assets/Projects/da.png";
 import ngapotik from "../../Assets/Projects/ngapotik.png";
+import mgizi from "../../Assets/Projects/mgizi.png";
+import sfood from "../../Assets/Projects/sfood.png";
 
 function Projects() {
   return (
@@ -32,6 +35,15 @@ function Projects() {
             />
           </Col>
           <Col md={4} className="project-card">
+            <ProjectCard3
+              imgPath={playman}
+              isBlog={false}
+              title="PlayMan - Music Player App"
+              description="PlayMan is a music player app designed to provide users with a fun and intuitive music listening experience."
+              ghLink="https://github.com/AldiPutra24/Music-Players.git"
+            />
+          </Col>
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
               isBlog={false}
@@ -53,9 +65,25 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard2
               imgPath={ngapotik}
-              title="UI/UX Design App"
+              title="UI/UX Design App Ngapotik"
               description="Ngapotik is an application designed to simplify pharmacy management, providing efficient and user-friendly digital solutions for pharmacy owners, pharmacists, and customers. The project includes user interface (UI) and user experience (UX) designs optimized to provide an intuitive and pleasant usage experience."
               demoLink="https://www.figma.com/design/UALG79I3QrmT6PPs3pqVxr/Ngapotik-E-Health?node-id=0-1&t=nwgsLmox7WGxdYph-1"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard2
+              imgPath={mgizi}
+              title="UI/UX Design App MGIZI"
+              description="The app provides features to track food consumed, calculate calorie requirements, as well as provide nutritional recommendations based on the user's individual needs. The project involved user interface (UI) and user experience (UX) designs that were optimized to provide an easy and engaging experience."
+              demoLink="https://www.figma.com/design/NgVtHVv5SDHUno5na3LcYE/UI%2FUX-MGIZI?node-id=0-1&t=DozlDl8p7WrkIRdW-1"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard2
+              imgPath={sfood}
+              title="UI/UX Design Shopeefood"
+              description="The project involves the design of user interface (UI) and user experience (UX) optimized to provide ease and comfort for users."
+              demoLink="https://www.figma.com/design/gRSdy47YqXAi21p9SrJxNj/UI%2FUX-ShopeeFood?node-id=0-1&t=d65vnhpl4fGA4Bh9-1"
             />
           </Col>
         </Row>
