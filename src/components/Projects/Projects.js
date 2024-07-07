@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import editor from "../../Assets/Projects/codeEditor.png";
 import gesturo from "../../Assets/Projects/gesturo.jpg";
+import dataanalyst from "../../Assets/Projects/da.png";
 
 function Projects() {
   return (
@@ -36,6 +37,18 @@ function Projects() {
               title="Timing-Point "
               description="Timing Point is a web-based todolist application. There are several 4 on this website."
               ghLink="https://github.com/AldiPutra24/Timing-Point"
+            />
+          </Col>
+        </Row>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={dataanalyst}
+              isBlog={false}
+              title="Dashboard Data Analyst Bike Sharing"
+              description="This project aims to analyze the data in the Bike Sharing Dataset with the aim of understanding bike lending patterns, influencing factors, and trends in bike usage over time."
+              ghLink="https://aldiputra.streamlit.app/"
+              demoLink="https://github.com/AldiPutra24/Proyek-Analisis-Data_Bike-Sharing.git"
             />
           </Col>
         </Row>
